@@ -1,0 +1,17 @@
+# package directories
+/API/node_modules
+/API_SQL/node_modules
+/CLIENT/node_modules
+
+# VSCode settings
+.vscode
+
+# Webpack directories
+/CLIENT/.webpack
+
+# Credentials and secure config
+/API/src/config/
+/API_SQL/src/config/
+
+# SQL backups
+*.bak

@@ -1,0 +1,12 @@
+## Frontend Requirements
+Create a simple front end application that includes a left navigation, and a content area. You should support typical mobile screen sizes as well as typical desktop screen sizes. We should have a Home tab that displays a description that includes some fun facts about yourself and your favorite hobbies. The second tab should be titled Cats. This should navigate to an area that displays a table that displays types of cats as described below (using a get request to the included API). In the content area of Cats place a basic dev extreme grid. This grid should connect to the included API, and access the endpoint you just created. We should be able to list, add, update, and remove entries. Please use existing npm packages of your choice for handling navigation. Ensure the license for whichever package you use, is truly free to use: (MIT license). Display the name column and description column. Editing of data should be done inline. Do not use bulk editing. When a user edits a given row and clicks save, this should immediately send a request to the api. You will need a simple token to be included when accessing the api, as it is not open. The application uses “Basic Authentication”. Please review the api code to determine how to properly connect to it.
+
+* You do not need to implement error handling.
+* The API authenticates using basic authentication. The username and passwords are included. After logging in the API will send an accessToken and a refreshToken.
+* After logging into the API you will need to use the accessToken with each request using Bearer Authentication. Your header will need to include an entry for Authorization with a value of 'Bearer includeAuthTokenHere' 
+* When you are finished, ensure that your front end app and the modified api app changes are all pushed to the included repos.
+
+## Bonus:
+*   The table that displays types of cats should be searchable locally using dev extremes included column search feature. 
+*   The table columns should be sortable (locally).
+*   You should use the API application included in the API_SQL folder and have restored the included sql database on your local machine. Include a screenshot of a simple select statement showing some of the contents of the Cats table. Just include it in the root directory of this project.

@@ -1,0 +1,17 @@
+{
+	"accessTokenSecret": "RNVvkphtfEOyKlFnIAqsnw==",
+	"refreshTokenSecret": "yDHkemsd0Eqoj6oL5FaGnA==",
+	"authserver": {
+		"port": 4000
+	},
+	"catserver": {
+		"port": 3000
+	},
+	"mssql": {
+		"host": "localhost",
+		"database": "CATS",
+		"username": "cats_api_usr",
+		"password": "scf2ZRfsBG"
+	},
+	"logLevel": "info"
+}
